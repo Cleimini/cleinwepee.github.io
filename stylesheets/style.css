@@ -1,0 +1,135 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  height: 0;
+  width: 0;
+}
+
+a {
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+a:hover {
+  color: var(--bs-info);
+}
+
+b, h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  margin: 0;
+}
+
+body, html {
+  font-family: "Montserrat", sans-serif;
+  scroll-behavior: smooth;
+}
+
+main {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100vh;
+  position: fixed;
+  width: 100%;
+}
+
+main h1 {
+  font-size: 5em;
+}
+
+main header {
+  padding: 15px 100px;
+}
+
+main header nav a {
+  padding: 10px 15px;
+}
+
+main header nav a:first-child, main header nav a:hover {
+  background-color: var(--bs-blue);
+}
+
+main header img {
+  -webkit-filter: invert(1);
+          filter: invert(1);
+}
+
+p {
+  margin: 0;
+}
+
+strong {
+  font-weight: 900;
+}
+
+ul {
+  list-style-type: none;
+}
+
+video {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.Light {
+  font-weight: 300;
+}
+
+.Thin {
+  font-weight: 100;
+}
+
+.Main-Content {
+  top: 100vh;
+}
+
+.Main-Content article {
+  padding: 50px 100px 100px 100px;
+}
+
+.Main-Content article h2 {
+  font-size: 3em;
+}
+
+.Main-Content footer p {
+  font-size: 0.750em;
+}
+
+.BG-Purple {
+  background-color: var(--bs-purple);
+}
+
+@media only screen and (max-width: 767.98px) {
+  main h1 {
+    font-size: 2.5em;
+  }
+  main h5 {
+    font-size: 1em;
+  }
+  main header {
+    padding: 15px 10px;
+  }
+  main header img {
+    width: 50px;
+  }
+  main header nav a {
+    padding: 5px;
+  }
+  .Main-Content article {
+    padding: 50px 25px;
+  }
+}
+
+@media only screen and (max-width: 280px) {
+  main h1 {
+    font-size: 2em;
+  }
+  main h5 {
+    font-size: 0.875em;
+  }
+  main header nav a {
+    font-size: 0.750em;
+  }
+}
+/*# sourceMappingURL=style.css.map */
