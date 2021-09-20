@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="images/logo.png" rel="shortcut icon" type="image/png">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link href="stylesheets/style.css" rel="stylesheet">
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="author" content="Clein Francis B. Wepee">
+        <meta name="description" content="My portfolio website to demonstrate my skills and expertise in computer programming, web design and development.">
+        <meta name="keywords" content="Portfolio, Personal Website, Portfolio Website, Tongsing, Atitoytoy, Cleimini">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous"></script>
+
+        <!--[if lt IE 9]>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" integrity="sha512-UDJtJXfzfsiPPgnI5S1000FPLBHMhvzAMX15I+qG2E2OAzC9P1JzUwJOfnypXiOH7MRPaqzhPbBGDNNj7zBfoA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <![endif]-->
+
+        <style>
+            pre {
+                text-align: justify;
+                white-space: pre-wrap;
+                word-wrap: break-word;
+            }
+
+            section article img {
+                border: 1px solid rgba(0, 0, 0, 0.3);
+                width: 100%;
+            }
+
+            ul {
+                list-style-type: initial;
+            }
+
+            .Banner {
+                background: url("images/anirepo/banner.png") center/cover no-repeat fixed;
+            }
+        </style>
+
+        <title>Clein Wepee | AniRepo</title>
+    </head>
+
+    <body>
+        <div class="position-fixed start-0 top-0 vh-100 vw-100 Banner"></div>
+
+        <main class="user-select-none">
+            <header class="position-relative">
+                <a class="float-start" href="index.html">
+                    <img alt="Bleach Shinigami Logo" draggable="false" src="images/logo.png" width="64">
+                </a>
+
+                <nav class="float-end">
+                    <a class="rounded text-decoration-none text-white" href="index.html">Home</a>
+                    <a class="mx-2 rounded text-decoration-none text-white" href="mailto:cleinwepee@gmail.com">Email</a>
+                    <a class="rounded text-decoration-none text-white" download href="https://cleimini.github.io/portfolio/downloadable/Clein Wepee's Resume.docx">Resume</a>
+                </nav>
+            </header>
+
+            <section class="position-absolute start-50 text-center text-white top-50 translate-middle w-100">
+                <h1><strong>ANIREPO</strong></h1>
+                <h5 class="Thin">D I G I T A L <span class="mx-3"></span> A N I M E <span class="mx-3"></span> R E P O S I T O R Y</h5>
+            </section>
+        </main>
+
+        <section class="bg-white position-relative Main-Content">
+            <article class="align-items-center d-flex justify-content-center text-center">
+                <div>
+                    <h3 class="Light"><a href="http://anirepo.epizy.com/" target="_BLANK"><b>http://anirepo.epizy.com/</b></a></h3>
+
+                    <h3 class="mt-5 Light">
+                        AniRepo is a website for you to keep track of your daily anime activities. 
+                        Such as anime that you've finished watching, anime that you are currently watching,
+                        anime that you postponed watching, and anime that you plan to watch soon.
+                    </h3>
+    
+                    <h3 class="mt-5 Light">
+                        Another feature is adding anime to your favorites along with anime characters 
+                        and voice actors/actresses. And anime that you reviewed/share your opinion.
+                    </h3>
+
+                    <h3 class="mt-5 Light">
+                        Lastly, it also helps you to keep track of the current trending anime on the MyAnimeList 
+                        website. Such as trending anime this season, newly updated episodes of a trending anime, 
+                        trending airing anime, trending upcoming anime, and all-time popular anime.
+                    </h3>
+
+                    <h3 class="mt-5 Light">
+                        All data whether it be anime, character or voice actor/actress are being scraped from the 
+                        MyAnimeList website using a PHP library called <b>Simple HTML DOM Parser</b>.
+                    </h3>
+
+                    <h3 class="bg-danger mt-5 p-3 rounded text-white Light">
+                        Recent updates with the HTML structure of the MyAnimeList website prevents users to 
+                        scrape data from it. As of the moment, I am currently working on finding another way 
+                        of scraping the data without the help of Web Scraping APIs and Libraries. And to solely 
+                        rely on the <b>Simple HTML DOM Parser</b> just for fun.
+                    </h3>
+                </div>
+            </article>
+
+            <article class="align-items-center d-flex justify-content-center text-center">
+                <div>
+                    <h1><strong>DASHBOARD SNAPSHOTS</strong></h1>
+
+                    <div class="row">
+                        <div class="col-md mt-4">
+                            <a href="images/anirepo/dashboard-monitorings.png" target="_BLANK">
+                                <img alt="Dashboard Monitorings" class="rounded" draggable="false" src="images/anirepo/dashboard-monitorings.png">
+                            </a>
+                        </div>
+
+                        <div class="col-md mt-4">
+                            <a href="images/anirepo/dashboard-trendings.png" target="_BLANK">
+                                <img alt="Dashboard Trendings" class="rounded" draggable="false" src="images/anirepo/dashboard-trendings.png">
+                            </a>
+                        </div>
+
+                        <div class="col-md mt-4">
+                            <a href="images/anirepo/dashboard-sources.png" target="_BLANK">
+                                <img alt="Dashboard Sources" class="rounded" draggable="false" src="images/anirepo/dashboard-sources.png">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md mt-4">
+                            <a href="images/anirepo/dashboard-types.png" target="_BLANK">
+                                <img alt="Dashboard Types" class="rounded" draggable="false" src="images/anirepo/dashboard-types.png">
+                            </a>
+                        </div>
+
+                        <div class="col-md mt-4">
+                            <a href="images/anirepo/dashboard-studios.png" target="_BLANK">
+                                <img alt="Dashboard Studios" class="rounded" draggable="false" src="images/anirepo/dashboard-studios.png">
+                            </a>
+                        </div>
+
+                        <div class="col-md mt-4">
+                            <a href="images/anirepo/dashboard-premiered.png" target="_BLANK">
+                                <img alt="Dashboard Premiered" class="rounded" draggable="false" src="images/anirepo/dashboard-premiered.png">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md mt-4">
+                            <a href="images/anirepo/dashboard-genres.png" target="_BLANK">
+                                <img alt="Dashboard Genres" class="rounded" draggable="false" src="images/anirepo/dashboard-genres.png">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <article class="align-items-center d-flex justify-content-center text-center">
+                <div>
+                    <h1><strong>ANIME WEBPAGE SAMPLES</strong></h1>
+
+                    <div class="row">
+                        <div class="col-md mt-4">
+                            <a href="images/anirepo/anime-list.png" target="_BLANK">
+                                <img alt="Anime List" class="rounded" draggable="false" src="images/anirepo/anime-list.png">
+                            </a>
+                        </div>
+
+                        <div class="col-md mt-4">
+                            <a href="images/anirepo/anime-enlister.png" target="_BLANK">
+                                <img alt="Anime Enlister" class="rounded" draggable="false" src="images/anirepo/anime-enlister.png">
+                            </a>
+                        </div>
+
+                        <div class="col-md mt-4">
+                            <a href="images/anirepo/anime-editor.png" target="_BLANK">
+                                <img alt="Anime Editor" class="rounded" draggable="false" src="images/anirepo/anime-editor.png">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <article class="align-items-center d-flex justify-content-center text-center">
+                <div>
+                    <h1><strong>ADD ANIME CODE</strong></h1>
+                    <h6 class="Light">BETTER VIEW ON DESKTOP/LANDSCAPE VIEW ON SOME MOBILE DEVICES</h6>
+
+<pre class="bg-dark mt-4 p-3 rounded text-start text-info">
+include_once "simple_html_dom.php";
+</pre>
+
+<pre class="bg-dark mt-4 p-3 rounded text-start text-primary">
+$Correct_Anime_Genres = array();
+$Anime_Genres = array(1 => "ActionAction", 2 => "AdventureAdventure",  3=> "CarsCars",  4 => "ComedyComedy", 5 => "DementiaDementia",
+    6 => "DemonsDemons", 7 => "DramaDrama", 8 => "EcchiEcchi", 9 => "FantasyFantasy", 10 => "GameGame",
+    11 => "HaremHarem", 12 => "HentaiHentai", 13 => "HistoricalHistorical", 14 => "HorrorHorror", 15 => "JoseiJosei",
+    16 => "KidsKids", 17 => "MagicMagic", 18 => "MartialArtsMartialArts", 19 => "MechaMecha", 20 => "MilitaryMilitary",
+    21 => "MusicMusic", 22 => "MysteryMystery", 23 => "ParodyParody", 24 => "PolicePolice", 25 => "PyschologicalPsychological",
+    26 => "RomanceRomance", 27 => "SamuraiSamurai", 28 => "SchoolSchool", 29 => "Sci-FiSci-Fi", 30 => "SeinenSeinen",
+    31 => "ShoujoShoujo", 32 => "ShoujoAiShoujoAi", 33 => "ShounenShounen", 34 => "ShounenAiShounenAi", 35 => "SliceofLifeSliceofLife",
+    36 => "SpaceSpace", 37 => "SportsSports", 38 => "SuperPowerSuperPower", 39 => "SupernaturalSupernatural", 40 => "ThrillerThriller",
+    41 => "VampireVampire", 42 => "YaoiYaoi", 43 => "YuriYuri");
+$Fixed_Anime_Genres = array(1 => "Action", 2 => "Adventure", 3 => "Cars", 4 => "Comedy", 5 => "Dementia",
+    6 => "Demons", 7 => "Drama", 8 => "Ecchi", 9 => "Fantasy", 10 => "Game",
+    11 => "Harem", 12 => "Hentai", 13 => "Historical", 14 => "Horror", 15 => "Josei",
+    16 => "Kids", 17 => "Magic", 18 => "Martial Arts", 19 => "Mecha", 20 => "Military",
+    21 => "Music", 22 => "Mystery", 23 => "Parody", 24 => "Police", 25 => "Pyschological",
+    26 => "Romance", 27 => "Samurai", 28 => "School", 29 => "Sci-Fi", 30 => "Seinen",
+    31 => "Shoujo", 32 => "Shoujo Ai", 33 => "Shounen", 34 => "Shounen Ai", 35 => "Slice of Life",
+    36 => "Space", 37 => "Sports", 38 => "Super Power", 39 => "Supernatural", 40 => "Thriller",
+    41 => "Vampire", 42 => "Yaoi", 43 => "Yuri");
+$MAL_Website = file_get_html("$Anime_MAL_URL");
+$Anime_Title = $MAL_Website->find("h1[class='title-name h1_bold_none']", 0);
+$Anime_Title = strip_tags($Anime_Title->plaintext);
+$Anime_Title = trim(preg_replace("/\s+/", " ", $Anime_Title));
+$Anime_Thumbnail = $MAL_Website->find("td[class='borderClass'] div div img", 0)->getAttribute("data-src");
+$Anime_Thumbnail = trim(filter_var($Anime_Thumbnail, FILTER_SANITIZE_URL));
+$Parent_Container = $MAL_Website->find("td[class='borderClass']", 0);
+$Child_Container = $Parent_Container->find("div[class='spaceit']");
+$Sibling_Container = $Parent_Container->find("div[class='spaceit'] span[class='dark_text']");
+</pre>
+
+<pre class="bg-dark mt-4 p-3 rounded text-start text-danger">
+for ($i = 0; $i < sizeof($Child_Container); $i++) {
+    $Child_Data = $Child_Container[$i]->prev_sibling();
+    $Child_Data = strip_tags($Child_Data->plaintext);
+    $Child_Data = trim(preg_replace("/\s+/", " ", $Child_Data));
+
+    if (sizeof($Child_Container) == 6) {
+        $Premiered = "";
+
+        if ($i == 0) { $Anime_Type = substr($Child_Data, 6); }
+        if ($i == 3) { $Studios = substr($Child_Data, 9); }
+        if ($i == 4) {
+            $Genres = substr($Child_Data, 8);
+            $Genres = str_replace(" ", "", $Genres);
+            $Genres = explode(",", $Genres);
+
+            for ($k = 0; $k < sizeof($Genres); $k++) {
+                if ($Compare_Genres = array_search($Genres[$k], $Anime_Genres)) {
+                    $Correct_Anime_Genres[] = $Genres[$k] = $Fixed_Anime_Genres[$Compare_Genres];
+                }
+            }
+
+            $Correct_Anime_Genres = implode(", ", $Correct_Anime_Genres);
+        }
+    }
+
+    if (sizeof($Child_Container) == 7) {
+        if ($i == 0) { $Anime_Type = substr($Child_Data, 6); }
+        if ($i == 2) { $Premiered = substr($Child_Data, 11); }
+        if ($i == 4) { $Studios = substr($Child_Data, 9); }
+        if ($i == 5) {
+            $Genres = substr($Child_Data, 8);
+            $Genres = str_replace(" ", "", $Genres);
+            $Genres = explode(",", $Genres);
+
+            for ($k = 0; $k < sizeof($Genres); $k++) {
+                if ($Compare_Genres = array_search($Genres[$k], $Anime_Genres)) {
+                    $Correct_Anime_Genres[] = $Genres[$k] = $Fixed_Anime_Genres[$Compare_Genres];
+                }
+            }
+
+            $Correct_Anime_Genres = implode(", ", $Correct_Anime_Genres);
+        }
+    }
+}
+</pre>
+
+<pre class="bg-dark mt-4 p-3 rounded text-start text-warning">
+for($j = 0; $j < sizeof($Sibling_Container); $j++) {
+    $Sibling_Data = $Sibling_Container[$j]->parent();
+    $Sibling_Data = strip_tags($Sibling_Data->plaintext);
+    $Sibling_Data = trim(preg_replace("/\s+/", " ", $Sibling_Data));
+
+    if (sizeof($Sibling_Container) == 6) {
+        if ($j == 3) { $Source = substr($Sibling_Data, 8); }
+    }
+
+    if (sizeof($Sibling_Container) == 7) {
+        if ($j == 4) { $Source = substr($Sibling_Data, 8); }
+    }
+}
+</pre>
+
+                    <h3 class="mt-4 Light">
+                        The PHP script above is the code in adding anime to your repository. By just 
+                        providing the URL of an anime from the MyAnimeList website. The script will 
+                        scrape the selected data from the website such as the:
+                    </h3>
+
+                    <ul class="mt-4 text-start">
+                        <li><h4 class="Light">Title</h4></li>
+                        <li><h4 class="Light">Type (TV, Movie, etc.)</h4></li>
+                        <li><h4 class="Light">Source (Manga, Visual Novel, etc.)</h4></li>
+                        <li><h4 class="Light">Premiered (Winter 2021, Summer 2020, etc.)</h4></li>
+                        <li><h4 class="Light">Studios (Studio Ghibli, Kyoto Animation, etc.)</h4></li>
+                        <li><h4 class="Light">Genres (Action, Adventure, etc.)</h4></li>
+                        <li><h4 class="Light">Thumbnail</h4></li>
+                    </ul>
+                </div>
+            </article>
+
+            <article class="align-items-center d-flex justify-content-center text-center">
+                <div>
+                    <h3 class="Light">THE WEBSITE WAS DESIGNED AND DEVELOPED USING:</h3>
+
+                    <ul class="list-group mt-2 text-start">
+                        <li class="list-group-item list-group-item-action list-group-item-danger"><i class="fab fa-html5"></i> HTML5</li>
+                        <li class="list-group-item list-group-item-action list-group-item-warning"><i class="fab fa-css3-alt"></i> CSS3</li>
+                        <li class="list-group-item list-group-item-action list-group-item-warning"><i class="fab fa-sass"></i> SASS</li>
+                        <li class="list-group-item list-group-item-action list-group-item-primary"><i class="fab fa-bootstrap"></i> Bootstrap 5</li>
+                        <li class="list-group-item list-group-item-action list-group-item-warning"><i class="fab fa-js-square"></i> JavaScript ES6</li>
+                        <li class="list-group-item list-group-item-action list-group-item-warning"><i class="fab fa-jsfiddle"></i> jQuery 3</li>
+                        <li class="list-group-item list-group-item-action list-group-item-info"><i class="fab fa-php"></i> PHP 8</li>
+                        <li class="list-group-item list-group-item-action list-group-item-success"><i class="fas fa-database"></i> MySQL (PHP PDO)</li>
+                    </ul>
+
+                    <h3 class="mt-5 Light">THE WEBSITE WAS DESIGNED AND DEVELOPED USING:</h3>
+
+                    <ul class="list-group mt-2 text-start">
+                        <li class="list-group-item list-group-item-action list-group-item-warning"><i class="fas fa-chart-pie"></i> ChartJS</li>
+                        <li class="list-group-item list-group-item-action list-group-item-primary"><i class="fab fa-font-awesome-flag"></i> FontAwesome 5</li>
+                        <li class="list-group-item list-group-item-action list-group-item-warning"><i class="fas fa-calendar-alt"></i> FullCalendarJS</li>
+                        <li class="list-group-item list-group-item-action list-group-item-warning"><i class="fas fa-images"></i> Owl Carousel</li>
+                        <li class="list-group-item list-group-item-action list-group-item-info"><i class="fab fa-php"></i> PHPMailer 6</li>
+                        <li class="list-group-item list-group-item-action list-group-item-warning"><i class="fab fa-js-square"></i> PopperJS</li>
+                        <li class="list-group-item list-group-item-action list-group-item-info"><i class="fab fa-php"></i> Simple HTML DOM Parser</li>
+                    </ul>
+                </div>
+            </article>
+
+            <footer class="bg-primary p-2 text-center text-white">
+                <p class="Light">Copyright &copy; cleimini.github.io/portfolio 2021</p>
+            </footer>
+        </section>
+    </body>
+</html>

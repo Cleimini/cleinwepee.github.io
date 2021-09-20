@@ -44,7 +44,7 @@ main {
                 padding: 10px 15px;
             }
 
-            a:first-child, a:hover {
+            a:hover, .Active-Link {
                 background-color: var(--bs-blue);
             }
         }
@@ -93,6 +93,10 @@ video {
     footer p {
         font-size: 0.750em;
     }
+}
+
+.BG-Light-Gray {
+    background-color: rgba(0, 0, 0, 0.05);
 }
 
 .BG-Purple {
